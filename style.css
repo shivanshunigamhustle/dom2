@@ -2,21 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html,body{
     height: 100%;
     width: 100%;
 }
-
-#bulb{
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    border: 2px solid black;
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    color: white;
 }
+
+
+  
+
 button{
-    padding: 20px 30px;
-    margin-top: 80px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(173, 13, 106);
+    font-size: larger;
+    border-radius: 20px;
 
 }
-
+button:active{
+    scale: 0.9;
+ }
+ h1{
+    padding: 40px 80px;
+    font-size: 70px;
+   height: 150px;
+   width: 300px;
+   background-color: aqua;
+   border: 2px solid black;
+   border-radius: 20px;
+   font-family: monospace;
+}
+h2{
+     padding: 40px 80px;
+    font-size: 50px;
+   height: 150px;
+   width: 300px;
+   background-color: aqua;
+   border: 2px solid black;
+   border-radius: 20px;
+   font-family: monospace;
+}
+ h3{padding: 40px 80px;
+    font-size: 70px;
+   height: 150px;
+   width: 300px;
+   background-color: aqua;
+   border: 2px solid black;
+   border-radius: 20px;
+   font-family: monospace; padding: 40px 80px;
+    font-size: 70px;
+   height: 150px;
+   width: 300px;
+   background-color: aqua;
+   border: 2px solid black;
+   border-radius: 20px;
+   font-family: monospace;
+ } 
